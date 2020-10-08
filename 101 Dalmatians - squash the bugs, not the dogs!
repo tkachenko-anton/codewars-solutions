@@ -1,0 +1,9 @@
+// 101 Dalmatians - squash the bugs, not the dogs!
+// https://www.codewars.com/kata/56f6919a6b88de18ff000b36
+
+function howManyDalmatians(number){
+  
+  var respond = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+  
+ return (number <= 10) ? respond[0] : (number >= 11 && number <= 50) ? respond[1] : (number >= 51 && number <= 100) ? respond[2] : respond[3];
+}
