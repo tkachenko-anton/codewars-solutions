@@ -1,0 +1,7 @@
+// Be Concise I - The Ternary Operator
+// https://www.codewars.com/kata/56f3f6a82010832b02000f38
+
+function describeAge(a) {
+  let s = "You're a(n) ";
+  return a<=12?s+'kid':a<=17?s+'teenager':a<=64?s+'adult':s+'elderly';
+}
