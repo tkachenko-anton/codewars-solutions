@@ -1,0 +1,14 @@
+// Calculate Two People's Individual Ages
+// https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1
+
+function getAges(sum, difference){
+  let res = [];
+let sumAges = (sum + difference) / 2;
+  let difAges = (sum - difference) / 2;
+  res.push(sumAges);
+  res.push(difAges);
+  if (sum < 0 || difference < 0 || sum < difference){
+    return null;
+  } 
+  return res;
+}
