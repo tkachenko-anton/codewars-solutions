@@ -1,0 +1,13 @@
+// The wheat/rice and chessboard problem
+// https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/train/javascript
+
+function squaresNeeded(grains){
+let count = 0;
+let grOnBoard = 1;
+  while (grains > 0){
+    grains = grains - grOnBoard;
+    grOnBoard = grOnBoard * 2;
+    count += 1;
+  }
+  return count;
+}
