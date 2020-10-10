@@ -1,0 +1,13 @@
+// Difference Of Squares
+// https://www.codewars.com/kata/558f9f51e85b46e9fa000025/train/javascript
+
+function differenceOfSquares(n){
+  let sqrOfSum = 1;
+  let sumOfSqr = 1;
+  while (n > 1) {
+    sqrOfSum += n;
+    sumOfSqr = sumOfSqr + n ** 2;
+    n--;
+  }
+  return (sqrOfSum ** 2) - sumOfSqr;
+}
