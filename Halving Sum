@@ -1,0 +1,12 @@
+// Halving Sum
+// https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d/train/javascript
+
+function halvingSum(n) {
+    let sum = 0;
+  
+  while (0 < n){
+    sum = sum + n;
+    n = Math.floor(n / 2);    
+  }
+  return sum;
+}
