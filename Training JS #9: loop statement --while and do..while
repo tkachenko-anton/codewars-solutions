@@ -1,0 +1,11 @@
+// Training JS #9: loop statement --while and do..while
+// https://www.codewars.com/kata/57216d4bcdd71175d6000560/train/javascript
+
+function padIt(str,n){
+    let res = str;
+  do {
+   res = (n % 2 === 0) ? res + "*" : "*" + res;
+    n--;
+  } while (n);
+  return res;
+}
