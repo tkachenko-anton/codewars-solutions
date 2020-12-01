@@ -29,3 +29,10 @@ function greet(language) {
     return 'Welcome';
   }
 }
+
+// Solution #2
+//  return language in database ? database[language] : database.english;
+};
+
+// Solution #3
+// return greet[language] || 'Welcome';
