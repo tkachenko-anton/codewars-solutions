@@ -1,0 +1,19 @@
+// Sum of positive
+// https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
+
+function positiveSum(arr) {
+  
+  if (arr === []){
+    return 0;
+  }
+  
+  let sum = 0;
+  
+  for (let elem of arr) {
+    if (elem > 0) {
+      sum += elem;
+    }
+   }
+      
+  return sum;
+}
