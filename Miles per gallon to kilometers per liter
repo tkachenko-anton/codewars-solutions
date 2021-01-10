@@ -1,0 +1,8 @@
+// Miles per gallon to kilometers per liter
+// https://www.codewars.com/kata/557b5e0bddf29d861400005d
+
+function converter (mpg) {
+let result = mpg * 1.609344 / 4.54609188;
+return +result.toFixed(2);
+//code to convert miles per imperial gallon to kilometers per liter
+}
