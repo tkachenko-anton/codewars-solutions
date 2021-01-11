@@ -1,0 +1,6 @@
+// Perimeter sequence
+// https://www.codewars.com/kata/589519d1f0902e01af000054/train/javascript
+
+function perimeterSequence(a,n) {
+  return 2 * (a + a) * n;
+}
